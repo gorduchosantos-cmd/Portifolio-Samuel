@@ -136,7 +136,12 @@ export default function App() {
                 <a href="#projects" className="px-8 py-3 border border-white/20 rounded-full text-[12px] uppercase tracking-[1px] hover:bg-white hover:text-black transition-all">
                   Works
                 </a>
-                <a href="#contact" className="px-8 py-3 border border-white/20 rounded-full text-[12px] uppercase tracking-[1px] hover:border-white/40 transition-all flex items-center gap-2">
+                <a 
+                  href="https://wa.me/message/F4ZGMVBPOM4UB1" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="px-8 py-3 border border-white/20 rounded-full text-[12px] uppercase tracking-[1px] hover:bg-white hover:text-black transition-all flex items-center gap-2"
+                >
                   Contact <ArrowRight className="w-3 h-3" />
                 </a>
               </motion.div>
@@ -195,7 +200,12 @@ export default function App() {
                 READY TO <br />CREATE?
               </h3>
               <div className="flex flex-wrap gap-6">
-                <a href="#" className="flex items-center gap-2 text-[12px] uppercase tracking-[2px] text-white/60 hover:text-white transition-colors group">
+                <a 
+                  href="https://wa.me/message/F4ZGMVBPOM4UB1" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="flex items-center gap-2 text-[12px] uppercase tracking-[2px] text-white/60 hover:text-white transition-colors group"
+                >
                   <MessageSquare className="w-4 h-4" /> WhatsApp <ArrowRight className="w-3 h-3 -rotate-45 opacity-0 group-hover:opacity-100 transition-all" />
                 </a>
                 <a href="#" className="flex items-center gap-2 text-[12px] uppercase tracking-[2px] text-white/60 hover:text-white transition-colors group">
