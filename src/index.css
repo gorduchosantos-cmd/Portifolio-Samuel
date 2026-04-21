@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=JetBrains+Mono:wght@400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-immersive-bg: #050505;
+  --color-immersive-line: rgba(255, 255, 255, 0.05);
+  --color-immersive-text-dim: rgba(255, 255, 255, 0.5);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-immersive-bg text-neutral-100 font-sans antialiased;
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-sans tracking-tighter text-white;
+  }
+}
+
+@layer utilities {
+  .immersive-grid {
+    @apply max-w-[1024px] mx-auto border-x border-immersive-line min-h-screen relative;
+  }
+  
+  .immersive-border-b {
+    @apply border-b border-immersive-line;
+  }
+
+  .immersive-border-t {
+    @apply border-t border-immersive-line;
+  }
+
+  .hero-title-immersive {
+    @apply text-[84px] leading-[0.9] font-extralight tracking-[-2px] mb-6;
+  }
+
+  .glass-card {
+    @apply bg-white/[0.03] backdrop-blur-xl border border-immersive-line rounded-xl transition-all duration-300;
+  }
+  
+  .glass-card:hover {
+    @apply bg-white/[0.08] border-blue-500/30;
+  }
+
+  .status-dot-glow {
+    @apply w-1.5 h-1.5 bg-emerald-500 rounded-full shadow-[0_0_10px_#10b981];
+  }
+
+  .gradient-overlay {
+    background: 
+      radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.15) 0, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(147, 51, 234, 0.1) 0, transparent 40%);
+    pointer-events: none;
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+  }
+}
