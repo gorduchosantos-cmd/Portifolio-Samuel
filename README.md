@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SAMUELDEV Portfolio
 
-# Run and deploy your AI Studio app
+Professional portfolio website for Samuel Santos Barros, a Senior Product Designer & Web Developer.
 
-This contains everything you need to run your app locally.
+## Tech Stack
 
-View your app in AI Studio: https://ai.studio/apps/94fd860d-17ce-40ea-bbd4-250fa70c3b9f
+- **Framework:** React 18
+- **Styling:** Tailwind CSS 4
+- **Animations:** Motion (Framer Motion)
+- **Icons:** Lucide React
+- **Build Tool:** Vite
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- **Immersive UI:** A dark, atmospheric aesthetic with glassmorphism and precision grid layouts.
+- **Responsive Design:** Optimized for all devices.
+- **Interactive Elements:** Smooth transitions and scroll-based animations.
+- **Direct Contact:** Integrated WhatsApp contact button.
 
+## Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tody7/SAMUELDEV.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## License
+
+This project is licensed under the Apache-2.0 License.

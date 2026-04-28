@@ -75,7 +75,7 @@ export default function App() {
             animate={{ opacity: 1 }}
             className="text-[18px] font-bold tracking-[4px] uppercase"
           >
-            Samuel<span className="text-white/20">/24</span>
+            SAMUELDEV
           </motion.div>
           
           <ul className="flex gap-8">
